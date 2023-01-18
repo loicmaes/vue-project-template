@@ -12,6 +12,27 @@ Use the GitHub template (if you have any access to it) or clone this repository 
 git clone https://www.github.com/loicmaes/vue-project-template.git
 ```
 
+## How can I run my project?
+
+To run your project, there is two ways :
+- Development Mode
+- Production Mode
+
+To run it in development mode, run the following command in your terminal (take care of your terminal's active directory):
+```shell
+npm run serve
+```
+
+To run it in production mode (without build it), run the following command:
+```shell
+npm start
+```
+
+You can build your project to deploy it online (on your server):
+```shell
+npm run build
+```
+
 ## What does it change?
 
 This template have a built-in reset CSS and is directly applied on the global APP.  
